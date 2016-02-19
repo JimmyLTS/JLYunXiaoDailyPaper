@@ -1,0 +1,16 @@
+//
+//  WebImgScrollView.m
+//  JLZhiHuDailyPaper
+//
+//  Created by wanglong on 16/2/18.
+//  Copyright © 2016年 Jimmy. All rights reserved.
+//
+
+#import "WebImgScrollView.h"
+#import "SDWebImageManager.h"
+
+@implementation WebImgScrollView
+
+
+
+@end
