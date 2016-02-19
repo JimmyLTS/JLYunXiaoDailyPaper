@@ -16,12 +16,22 @@
 		BFAAD9791C74556E00B20828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAAD9771C74556E00B20828 /* LaunchScreen.storyboard */; };
 		BFAAD9A11C745BA300B20828 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAAD9A01C745BA300B20828 /* MainController.m */; };
 		BFAAD9A81C745E1000B20828 /* LeftSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAAD9A61C745E1000B20828 /* LeftSideViewController.m */; };
-		BFAAD9A91C745E1000B20828 /* LeftSideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFAAD9A71C745E1000B20828 /* LeftSideViewController.xib */; };
 		BFAAD9AC1C745F3300B20828 /* ThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAAD9AB1C745F3300B20828 /* ThemeViewController.m */; };
 		BFAAD9AF1C745FBF00B20828 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAAD9AE1C745FBF00B20828 /* Theme.m */; };
 		BFAAD9B21C74614000B20828 /* StoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAAD9B11C74614000B20828 /* StoryModel.m */; };
 		BFAAD9B51C74647A00B20828 /* ThemeNews.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAAD9B41C74647A00B20828 /* ThemeNews.m */; };
 		BFAAD9B81C7465CB00B20828 /* ThemeNewsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAAD9B71C7465CB00B20828 /* ThemeNewsTool.m */; };
+		FE692F901C76A4FE0084C6BA /* ThemeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FE692F8F1C76A4FE0084C6BA /* ThemeTool.m */; };
+		FE692F931C76A6960084C6BA /* LeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE692F921C76A6960084C6BA /* LeftTableViewCell.m */; };
+		FE692F951C76A97E0084C6BA /* LeftSideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE692F941C76A97E0084C6BA /* LeftSideViewController.xib */; };
+		FE692F981C76A9EB0084C6BA /* CWAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FE692F971C76A9EB0084C6BA /* CWAccountTool.m */; };
+		FE692F9B1C76AA160084C6BA /* CWAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = FE692F9A1C76AA160084C6BA /* CWAccount.m */; };
+		FE692F9E1C76AE5B0084C6BA /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE692F9D1C76AE5B0084C6BA /* LoginController.m */; };
+		FE692FA01C76AE7F0084C6BA /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE692F9F1C76AE7F0084C6BA /* LoginController.xib */; };
+		FE692FA31C76B3850084C6BA /* TopImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE692FA21C76B3850084C6BA /* TopImageView.m */; };
+		FE692FA61C76B6B80084C6BA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE692FA51C76B6B80084C6BA /* DetailViewController.m */; };
+		FE692FA91C76B7190084C6BA /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE692FA81C76B7190084C6BA /* WebViewController.m */; };
+		FE692FAC1C76B72D0084C6BA /* ContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE692FAB1C76B72D0084C6BA /* ContainerController.m */; };
 		FECD7AC71C754DED00094823 /* DetailStory.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD7AC61C754DED00094823 /* DetailStory.m */; };
 		FECD7ACA1C754E0300094823 /* StoryExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD7AC91C754E0300094823 /* StoryExtra.m */; };
 		FECD7ACE1C75525F00094823 /* NewsNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD7ACD1C75525F00094823 /* NewsNavigation.m */; };
@@ -90,7 +100,6 @@
 		BFAAD9A01C745BA300B20828 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		BFAAD9A51C745E1000B20828 /* LeftSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSideViewController.h; sourceTree = "<group>"; };
 		BFAAD9A61C745E1000B20828 /* LeftSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSideViewController.m; sourceTree = "<group>"; };
-		BFAAD9A71C745E1000B20828 /* LeftSideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftSideViewController.xib; sourceTree = "<group>"; };
 		BFAAD9AA1C745F3300B20828 /* ThemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeViewController.h; sourceTree = "<group>"; };
 		BFAAD9AB1C745F3300B20828 /* ThemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeViewController.m; sourceTree = "<group>"; };
 		BFAAD9AD1C745FBF00B20828 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
@@ -102,6 +111,26 @@
 		BFAAD9B61C7465CB00B20828 /* ThemeNewsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeNewsTool.h; sourceTree = "<group>"; };
 		BFAAD9B71C7465CB00B20828 /* ThemeNewsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeNewsTool.m; sourceTree = "<group>"; };
 		DF06043F880365E7F3712C23 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE692F8E1C76A4FE0084C6BA /* ThemeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeTool.h; sourceTree = "<group>"; };
+		FE692F8F1C76A4FE0084C6BA /* ThemeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeTool.m; sourceTree = "<group>"; };
+		FE692F911C76A6960084C6BA /* LeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewCell.h; sourceTree = "<group>"; };
+		FE692F921C76A6960084C6BA /* LeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewCell.m; sourceTree = "<group>"; };
+		FE692F941C76A97E0084C6BA /* LeftSideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftSideViewController.xib; sourceTree = "<group>"; };
+		FE692F961C76A9EB0084C6BA /* CWAccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAccountTool.h; sourceTree = "<group>"; };
+		FE692F971C76A9EB0084C6BA /* CWAccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWAccountTool.m; sourceTree = "<group>"; };
+		FE692F991C76AA160084C6BA /* CWAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAccount.h; sourceTree = "<group>"; };
+		FE692F9A1C76AA160084C6BA /* CWAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWAccount.m; sourceTree = "<group>"; };
+		FE692F9C1C76AE5B0084C6BA /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		FE692F9D1C76AE5B0084C6BA /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		FE692F9F1C76AE7F0084C6BA /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		FE692FA11C76B3850084C6BA /* TopImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopImageView.h; sourceTree = "<group>"; };
+		FE692FA21C76B3850084C6BA /* TopImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopImageView.m; sourceTree = "<group>"; };
+		FE692FA41C76B6B80084C6BA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FE692FA51C76B6B80084C6BA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FE692FA71C76B7190084C6BA /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		FE692FA81C76B7190084C6BA /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		FE692FAA1C76B72D0084C6BA /* ContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerController.h; sourceTree = "<group>"; };
+		FE692FAB1C76B72D0084C6BA /* ContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerController.m; sourceTree = "<group>"; };
 		FECD7AC51C754DED00094823 /* DetailStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailStory.h; sourceTree = "<group>"; };
 		FECD7AC61C754DED00094823 /* DetailStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailStory.m; sourceTree = "<group>"; };
 		FECD7AC81C754E0300094823 /* StoryExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryExtra.h; sourceTree = "<group>"; };
@@ -299,6 +328,8 @@
 		BFAAD97E1C74579900B20828 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FE692F961C76A9EB0084C6BA /* CWAccountTool.h */,
+				FE692F971C76A9EB0084C6BA /* CWAccountTool.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -306,6 +337,9 @@
 		BFAAD97F1C7457BC00B20828 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FE692F9C1C76AE5B0084C6BA /* LoginController.h */,
+				FE692F9D1C76AE5B0084C6BA /* LoginController.m */,
+				FE692F9F1C76AE7F0084C6BA /* LoginController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -313,6 +347,8 @@
 		BFAAD9801C7457C900B20828 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FE692F991C76AA160084C6BA /* CWAccount.h */,
+				FE692F9A1C76AA160084C6BA /* CWAccount.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -394,6 +430,8 @@
 		BFAAD9881C74590E00B20828 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FE692FA11C76B3850084C6BA /* TopImageView.h */,
+				FE692FA21C76B3850084C6BA /* TopImageView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -401,6 +439,12 @@
 		BFAAD9891C74596200B20828 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FE692FA41C76B6B80084C6BA /* DetailViewController.h */,
+				FE692FA51C76B6B80084C6BA /* DetailViewController.m */,
+				FE692FA71C76B7190084C6BA /* WebViewController.h */,
+				FE692FA81C76B7190084C6BA /* WebViewController.m */,
+				FE692FAA1C76B72D0084C6BA /* ContainerController.h */,
+				FE692FAB1C76B72D0084C6BA /* ContainerController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -439,6 +483,8 @@
 		BFAAD98D1C7459A800B20828 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FE692F911C76A6960084C6BA /* LeftTableViewCell.h */,
+				FE692F921C76A6960084C6BA /* LeftTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -446,6 +492,8 @@
 		BFAAD98E1C7459AF00B20828 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FE692F8E1C76A4FE0084C6BA /* ThemeTool.h */,
+				FE692F8F1C76A4FE0084C6BA /* ThemeTool.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -464,7 +512,7 @@
 			children = (
 				BFAAD9A51C745E1000B20828 /* LeftSideViewController.h */,
 				BFAAD9A61C745E1000B20828 /* LeftSideViewController.m */,
-				BFAAD9A71C745E1000B20828 /* LeftSideViewController.xib */,
+				FE692F941C76A97E0084C6BA /* LeftSideViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -718,9 +766,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE692F951C76A97E0084C6BA /* LeftSideViewController.xib in Resources */,
 				FECD7AF91C75B40A00094823 /* TopView.xib in Resources */,
-				BFAAD9A91C745E1000B20828 /* LeftSideViewController.xib in Resources */,
 				FECD7AD91C7553E200094823 /* MBProgressHUD.bundle in Resources */,
+				FE692FA01C76AE7F0084C6BA /* LoginController.xib in Resources */,
 				BFAAD94F1C7432F300B20828 /* Assets.xcassets in Resources */,
 				BFAAD9791C74556E00B20828 /* LaunchScreen.storyboard in Resources */,
 				FECD7AF41C759BE400094823 /* HomeCell.xib in Resources */,
@@ -797,11 +846,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFAAD9AF1C745FBF00B20828 /* Theme.m in Sources */,
+				FE692FA91C76B7190084C6BA /* WebViewController.m in Sources */,
 				FEE038101C74A50700D29D51 /* NSDateFormatter+Expand.m in Sources */,
 				FECD7AD11C75528200094823 /* WebImgScrollView.m in Sources */,
+				FE692F981C76A9EB0084C6BA /* CWAccountTool.m in Sources */,
 				FEE038161C74A55300D29D51 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				FE692F9B1C76AA160084C6BA /* CWAccount.m in Sources */,
 				BFAAD9B21C74614000B20828 /* StoryModel.m in Sources */,
 				FECD7AEA1C75799B00094823 /* StoryModelTool.m in Sources */,
+				FE692F901C76A4FE0084C6BA /* ThemeTool.m in Sources */,
 				FECD7AED1C759B4000094823 /* CycleScrollView.m in Sources */,
 				FECD7ADE1C7554DB00094823 /* CircleRefreshView.m in Sources */,
 				BFAAD9B81C7465CB00B20828 /* ThemeNewsTool.m in Sources */,
@@ -809,8 +862,11 @@
 				FECD7AC71C754DED00094823 /* DetailStory.m in Sources */,
 				FEE038191C74A63900D29D51 /* LaunchViewController.m in Sources */,
 				FECD7AF71C759C2600094823 /* HomeHeaderView.m in Sources */,
+				FE692FAC1C76B72D0084C6BA /* ContainerController.m in Sources */,
 				FECD7ADA1C7553E200094823 /* MBProgressHUD.m in Sources */,
 				FEE038131C74A51D00D29D51 /* UIWindow+Expand.m in Sources */,
+				FE692FA31C76B3850084C6BA /* TopImageView.m in Sources */,
+				FE692FA61C76B6B80084C6BA /* DetailViewController.m in Sources */,
 				BFAAD9A11C745BA300B20828 /* MainController.m in Sources */,
 				FEE3B6D91C754AAB000E0543 /* HomePageController.m in Sources */,
 				BFAAD9AC1C745F3300B20828 /* ThemeViewController.m in Sources */,
@@ -825,8 +881,10 @@
 				FECD7ACA1C754E0300094823 /* StoryExtra.m in Sources */,
 				FECD7AE41C75550100094823 /* DetailFooterView.m in Sources */,
 				BFAAD9441C7432F300B20828 /* main.m in Sources */,
+				FE692F9E1C76AE5B0084C6BA /* LoginController.m in Sources */,
 				FEE038021C7492E600D29D51 /* CommonUtils.m in Sources */,
 				FEE037FF1C748F3500D29D51 /* HttpTool.m in Sources */,
+				FE692F931C76A6960084C6BA /* LeftTableViewCell.m in Sources */,
 				FECD7ACE1C75525F00094823 /* NewsNavigation.m in Sources */,
 				FEE0381C1C74A66200D29D51 /* LanuchImage.m in Sources */,
 				FEE0380D1C74A2FF00D29D51 /* TableViewDataSource.m in Sources */,

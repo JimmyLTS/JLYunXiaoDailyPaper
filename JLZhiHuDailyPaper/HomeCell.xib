@@ -68,10 +68,10 @@
             </tableViewCellContentView>
             <animations/>
             <connections>
-                <outlet property="iconImageView" destination="hdB-KG-9q9" id="SYd-pF-Qzr"/>
-                <outlet property="multipicImageView" destination="7HE-eF-UHE" id="JCC-bs-U3Z"/>
-                <outlet property="titleLabel" destination="782-MG-YAm" id="yHQ-dV-7PY"/>
-                <outlet property="titleLabelConstraint" destination="muH-Ox-eUq" id="2Qu-Tx-USn"/>
+                <outlet property="iconImageView" destination="hdB-KG-9q9" id="W0N-uv-Ghx"/>
+                <outlet property="multipicImageView" destination="7HE-eF-UHE" id="FTc-64-BEX"/>
+                <outlet property="titleLabel" destination="782-MG-YAm" id="8D5-ZK-gQ2"/>
+                <outlet property="titleLabelConstraint" destination="muH-Ox-eUq" id="GAx-Y6-Pee"/>
             </connections>
             <point key="canvasLocation" x="243.5" y="301"/>
         </tableViewCell>

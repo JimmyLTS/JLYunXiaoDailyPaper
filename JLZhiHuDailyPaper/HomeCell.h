@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeCell : UITableViewCell
+@class StoryModel,HomeCell;
+
+@protocol HomeCellDelegate <NSObject>
+
+@optional
+
+- (UIViewController *)getViewControllerWithId:(NSNumber *)storyId;
+
+@end
+
+@interface HomeCell : UITableViewCell<UIViewControllerPreviewingDelegate>
+
+@property (nonatomic, strong) StoryModel *storyModel;
+@property (nonatomic, strong) id <HomeCellDelegate>delegate;
 
 @end

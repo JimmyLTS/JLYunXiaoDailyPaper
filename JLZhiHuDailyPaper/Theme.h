@@ -14,7 +14,7 @@
 @property (nonatomic, copy) NSString *thumbnail;
 
 /** id 编号*/
-@property (nonatomic, copy) NSString *id;
+@property (nonatomic, copy) NSNumber *id;
 
 /** name 名称*/
 @property (nonatomic, copy) NSString *name;
