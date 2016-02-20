@@ -24,8 +24,7 @@
                     </constraints>
                     <state key="normal" title="Button" image="Login_Arrow"/>
                     <connections>
-                        <action selector="back" destination="-1" eventType="touchUpInside" id="ybc-DT-ZG4"/>
-                        <action selector="back:" destination="-1" eventType="touchUpInside" id="pXC-Th-8mf"/>
+                        <action selector="back" destination="-1" eventType="touchUpInside" id="axz-YT-Ma0"/>
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="登陆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrg-Bp-uZu">
@@ -35,7 +34,7 @@
                         <constraint firstAttribute="height" constant="24" id="WQd-hJ-M8B"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Login_Background" translatesAutoresizingMaskIntoConstraints="NO" id="Xk7-tQ-f81">
@@ -60,9 +59,6 @@
                     <state key="normal" title="腾讯QQ" backgroundImage="Login_Button_Tencent">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
-                    <connections>
-                        <action selector="QQlogin" destination="-1" eventType="touchUpInside" id="LkH-H5-9fZ"/>
-                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mY7-YG-S7J">
                     <rect key="frame" x="30" y="373" width="260" height="54"/>
@@ -74,9 +70,6 @@
                     <state key="normal" title="新浪微博" backgroundImage="Login_Button_Sina">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
-                    <connections>
-                        <action selector="sinaLogin" destination="-1" eventType="touchUpInside" id="Y2p-mf-f4x"/>
-                    </connections>
                 </button>
             </subviews>
             <animations/>

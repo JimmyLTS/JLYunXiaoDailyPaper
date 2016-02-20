@@ -24,18 +24,18 @@
 @property (nonatomic, strong) UIButton *goForwardBtn;
 @property (nonatomic, strong) UIButton *shareBtn;
 
-@property (nonatomic, assign) UIStatusBarStyle oldStytle;
+@property (nonatomic, assign) UIStatusBarStyle oldStyle;
 
 @end
 
 @implementation WebViewController
 
-#pragma  mark - life cycle
+#pragma mark - life cycle
 
-- (instancetype)initWithString:(NSString *)str {
+- (instancetype)initWithNSString:(NSString *)str{
     if (self = [super init]) {
         self.url = [NSURL URLWithString:str];
-        self.oldStytle = [UIApplication sharedApplication].statusBarStyle;
+        self.oldStyle = [UIApplication sharedApplication].statusBarStyle;
         self.view.backgroundColor = [UIColor whiteColor];
         self.automaticallyAdjustsScrollViewInsets = NO;
     }
@@ -58,9 +58,10 @@
     [self.tabBarView addSubview:self.shareBtn];
     
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
 }
 
-- (void)viewWillAppear:(BOOL)animated {
+- (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
     _backBtn2.frame = _tabBarView.bounds;
@@ -77,91 +78,107 @@
     
     _shareBtn.frame = _goForwardBtn.frame;
     _shareBtn.x = _shareBtn.x + _shareBtn.width;
+    
 }
 
-- (void)dealloc {
-    [UIApplication sharedApplication].statusBarStyle = self.oldStytle;
+- (void)dealloc{
+    [UIApplication sharedApplication].statusBarStyle = self.oldStyle;
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 }
-
 #pragma mark - UIWebView delegate
 
-- (void)webViewDidStartLoad:(UIWebView *)webView {
+- (void)webViewDidStartLoad:(UIWebView *)webView{
+    
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     [self calculateBtnIsDisable];
+    
 }
 
-- (void)webViewDidFinishLoad:(UIWebView *)webView {
+- (void)webViewDidFinishLoad:(UIWebView *)webView{
+    
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    
     [self calculateBtnIsDisable];
     self.titleLabel.text = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
 }
 
 #pragma mark - private method
-
-- (void)backLastView {
+- (void)backLastView{
     [self.navigationController popViewControllerAnimated:YES];
 }
 
-- (void)calculateBtnIsDisable {
+- (void)calculateBtnIsDisable{
     self.goBackBtn.enabled = self.webView.canGoBack;
     self.goForwardBtn.enabled = self.webView.canGoForward;
 }
 
-- (void)share {
+- (void)share{
     
 }
 
 #pragma mark - getter and setter
-- (UIWebView *)webView {
+
+- (UIWebView *)webView{
     if (_webView == nil) {
-        _webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 60, kScreenWidth, kScreenHeight - 60 - 40)];
+        _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 60, kScreenWidth, kScreenHeight - 60 - 40)];
         _webView.delegate = self;
     }
     return _webView;
 }
 
-- (void)setUrl:(NSURL *)url {
+- (void)setUrl:(NSURL *)url{
     _url = url;
     [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
 }
 
-- (UIView *)naviView {
+- (UIView *)naviView{
     if (_naviView == nil) {
-        _naviView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, 60)];
+        _naviView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 60)];
         _naviView.backgroundColor = kColor(23, 144, 211, 1);
     }
     return _naviView;
 }
 
-- (UIButton *)backBtn {
+- (UIButton *)backBtn{
     
     if (_backBtn == nil) {
         _backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         
-        [_backBtn addTarget:self action:@selector(backLastView) forControlEvents:UIControlEventTouchUpInside];
-        [_backBtn setBackgroundImage:[UIImage imageNamed:@"Back_White"] forState:UIControlStateNormal];
+        [_backBtn addTarget:self action:@selector(backLastView)
+           forControlEvents:UIControlEventTouchUpInside];
+        [_backBtn setBackgroundImage:[UIImage imageNamed:@"Back_White"]
+                            forState:UIControlStateNormal];
         
         _backBtn.frame = CGRectMake(5, 18, 40, 40);
+        
     }
     return _backBtn;
 }
 
-- (UIButton *)backBtn2 {
+- (UIButton *)backBtn2{
+    
     if (_backBtn2 == nil) {
         _backBtn2 = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_backBtn2 addTarget:self action:@selector(backLastView) forControlEvents:UIControlEventTouchUpInside];
-        [_backBtn2 setImage:[UIImage imageNamed:@"Back_White"] forState:UIControlStateNormal];
+        [_backBtn2 addTarget:self action:@selector(backLastView)
+            forControlEvents:UIControlEventTouchUpInside];
+        [_backBtn2 setImage:[UIImage imageNamed:@"Back_White"]
+                   forState:UIControlStateNormal];
     }
     return _backBtn2;
 }
 
-- (UIButton *)refreshBtn {
+- (UIButton *)refreshBtn{
     
     if (_refreshBtn == nil) {
+        
         _refreshBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_refreshBtn addTarget:self action:@selector(reload) forControlEvents:UIControlEventTouchUpInside];
-        [_refreshBtn setImage:[UIImage imageNamed:@"Browser_Icon_Reload"] forState:UIControlStateNormal];
+        
+        [_refreshBtn addTarget:self.webView
+                        action:@selector(reload)
+              forControlEvents:UIControlEventTouchUpInside];
+        
+        [_refreshBtn setImage:[UIImage imageNamed:@"Browser_Icon_Reload"]
+                     forState:UIControlStateNormal];
     }
     return _refreshBtn;
 }
@@ -224,5 +241,7 @@
     }
     return _tabBarView;
 }
+
+
 
 @end

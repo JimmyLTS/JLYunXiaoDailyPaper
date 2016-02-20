@@ -15,8 +15,9 @@
     
     [HttpTool get:@"http://news-at.zhihu.com/api/4/themes" params:nil success:^(id json) {
         NSArray *array = [NSArray array];
-        array = [Theme mj_objectArrayWithKeyValuesArray:json[@"others"]];
+        array = [Theme mj_objectArrayWithKeyValuesArray: json[@"others"]];
         block(array);
+        
     } failure:^(NSError *error) {
         nil;
     }];

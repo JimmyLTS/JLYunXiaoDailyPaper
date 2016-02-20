@@ -8,15 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void(^CallBack) (id obj);
+typedef void(^CallBack)(id obj);
 
 @interface DetailViewTool : NSObject
-
 /**
  *  获得某个id的详细内容
  */
-+ (void)getDetailStoryId:(NSNumber *)storyId Callback:(CallBack)callBack;
-
++ (void)getDetailStoryWithStoryId:(NSNumber *)storyId Callback:(CallBack)callBack;
 /**
  *  获得id的点赞评论数
  */

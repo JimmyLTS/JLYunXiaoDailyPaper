@@ -17,7 +17,7 @@
     HomeHeaderView *view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:headerID];
     if (!view) {
         view = [[HomeHeaderView alloc]init];
-        view.contentView.backgroundColor = kColor(23, 244, 211, 1);
+        view.contentView.backgroundColor = kColor(23, 144, 211, 1);
     }
     
     return view;

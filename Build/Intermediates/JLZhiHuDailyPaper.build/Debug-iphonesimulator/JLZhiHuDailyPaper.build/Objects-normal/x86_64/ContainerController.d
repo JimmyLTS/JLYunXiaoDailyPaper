@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ContainerController.m \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/PrefixHeader.pch \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/CommonUtils.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/Common.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/UIView+Extension.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HttpTool.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ContainerController.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/NewsNavigation.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/DetailViewController.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/DetailViewTool.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeNewsTool.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeNews.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryModel.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HUD/MBProgressHUD+MJ.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HUD/MBProgressHUD.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/AppDelegate.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/MainController.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/DetailStory.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryExtra.h

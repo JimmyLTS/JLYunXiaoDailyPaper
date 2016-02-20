@@ -10,7 +10,7 @@
 
 @class NewsNavigation;
 
-@protocol NewsNavigationDelegate <NSObject>
+@protocol  NewsNavigationDelegate <NSObject>
 
 @optional
 

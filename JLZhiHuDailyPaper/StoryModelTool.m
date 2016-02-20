@@ -57,7 +57,7 @@
         return;
     }
     self.loading = !self.loading;
-    NSString *url = [NSString stringWithFormat:@"http://news-at.zhihu.com/api/4/news/before/%@", data];
+    NSString *url = [NSString stringWithFormat:@"http://news-at.zhihu.com/api/4/news/before/%@",data];
     
     [HttpTool get:url params:nil success:^(id json) {
         SectionModel *sc = [SectionModel mj_objectWithKeyValues:json];

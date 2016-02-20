@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HomePageController.m \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/PrefixHeader.pch \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/CommonUtils.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/Common.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/UIView+Extension.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HttpTool.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HomePageController.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ContainerController.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/DetailViewController.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ArrayDataSource.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryModelTool.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryModel.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/AppDelegate.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/MainController.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HomeCell.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HomeHeaderView.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/CycleScrollView.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/CircleRefreshView.h

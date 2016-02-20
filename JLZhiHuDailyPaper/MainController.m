@@ -18,7 +18,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
+    HomePageController *homePageVC = [[HomePageController alloc]init];
+    homePageVC.view.backgroundColor = kWhiteColor;
+    
+    UINavigationController *naviController = [[UINavigationController alloc]initWithRootViewController:homePageVC];
+    self.naviController = naviController;
+    naviController.navigationBar.hidden = YES;
+    
+    LeftSideViewController *leftSideDrawerController = [[LeftSideViewController alloc]init];
+    leftSideDrawerController.delegate = self;
+    
+    self.centerViewController = naviController;
+    self.leftDrawerViewController = leftSideDrawerController;
+    
+    [self setMaximumLeftDrawerWidth:220];
+    
+    [self setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [self setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
+    [self setShouldStretchDrawer:NO];
+    
+    [self setShowsShadow:NO];
 }
 
 - (void)didReceiveMemoryWarning {

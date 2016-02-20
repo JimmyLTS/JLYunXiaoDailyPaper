@@ -65,7 +65,7 @@ static CGFloat const animationDuration = 5.0;
 /** 数据源：获取总的page个数 */
 @property (nonatomic, copy) NSInteger (^totalPagesCount)(void);
 /** 数据源：获取第pageIndex个位置的contenView */
-@property (nonatomic, copy) UIView *(^fetchContentViewAtIndex)(NSInteger pageIndex);
+@property (nonatomic, copy) UIView *(^fetchContentViewAtIndex) (NSInteger pageIndex);
 /** 当点击的时候，执行的block */
 @property (nonatomic, copy) void (^TapActionBlock)(NSInteger pageIndex);
 
@@ -241,7 +241,10 @@ static CGFloat const animationDuration = 5.0;
 
 - (instancetype)initWithFrame:(CGRect)frame storyModel:(StoryModel *)storyModel {
     
-    TopView *view = [[[NSBundle mainBundle]loadNibNamed:@"TopView" owner:self options:nil] lastObject];
+    TopView *view = [[[NSBundle mainBundle] loadNibNamed:@"TopView"
+                                                   owner:self
+                                                 options:nil]
+                     lastObject];
     view.frame = frame;
     view.storyModel = storyModel;
     return view;
@@ -249,12 +252,18 @@ static CGFloat const animationDuration = 5.0;
 
 + (instancetype)attchToView:(UIView *)view observeScrollView:(UIWebView *)webView {
     
-    TopView *topView = [[[NSBundle mainBundle] loadNibNamed:@"TopView" owner:self options:nil] lastObject];
+    TopView *topView = [[[NSBundle mainBundle] loadNibNamed:@"TopView"
+                                                      owner:self
+                                                    options:nil]
+                        lastObject];
     topView.frame = CGRectMake(0, -45, kScreenWidth, 265);
     topView.observe = YES;
     [view addSubview:topView];
     topView.scrollView = webView;
-    [webView.scrollView addObserver:topView forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
+    [webView.scrollView addObserver:topView
+                         forKeyPath:@"contentOffset"
+                            options:NSKeyValueObservingOptionNew
+                            context:nil];
     
     return topView;
     
@@ -263,26 +272,25 @@ static CGFloat const animationDuration = 5.0;
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context {
     
     UIScrollView *scrollView = object;
-    CGFloat offsetY = scrollView.contentOffset.y;
-    if (offsetY <= 0 && offsetY >= -90) {
-        self.frame = CGRectMake(0, -45 - 0.5 * offsetY, kScreenWidth, 265 - 0.5 * offsetY);
-    } else if (offsetY < -90) {
+    CGFloat offSetY = scrollView.contentOffset.y;
+    if (offSetY<=0&&offSetY>=-90) {
+        self.frame = CGRectMake(0, -45 - 0.5 * offSetY, kScreenWidth, 265 - 0.5 * offSetY);
+    }else if(offSetY<-90){
         self.scrollView.scrollView.contentOffset = CGPointMake(0, -90);
-    } else if (offsetY <= 500) {
+    }else if(offSetY <= 500) {
         
-        if (offsetY <= 220) {
+        if (offSetY <= 220) {
             [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
-        }else
-            [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+        }else [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
         
-        self.y = -45 - offsetY;
+        self.y = -45 - offSetY;
     }
     
 }
 
 - (void)dealloc {
     if (self.isObserve) {
-        [self.scrollView.scrollView removeObserver:self forKeyPath:@"sontentOffset"];
+        [self.scrollView.scrollView removeObserver:self forKeyPath:@"contentOffset"];
         [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     }
 }
@@ -312,10 +320,12 @@ static CGFloat const animationDuration = 5.0;
 
 + (instancetype)attchToView:(UIView *)view observeScrollView:(UIScrollView *)scrollView {
     
-    CycleView *cycleView = [[CycleView alloc]initWithFrame:CGRectMake(0, -45, kScreenWidth, 265)];
+    CycleView *cycleView = [[CycleView alloc] initWithFrame:CGRectMake(0, -45, kScreenWidth, 265)];
     cycleView.myScrollView = scrollView;
-    [scrollView addObserver:cycleView forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
-    
+    [scrollView addObserver:cycleView
+                 forKeyPath:@"contentOffset"
+                    options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld
+                    context:nil];
     return cycleView;
 }
 
@@ -324,8 +334,12 @@ static CGFloat const animationDuration = 5.0;
     
     __weak typeof(self) weakSelf = self;
     
-    self.fetchContentViewAtIndex = ^UIView *(NSInteger pageIndex) {
-        return [[TopView alloc]initWithFrame:weakSelf.frame storyModel:topStories[pageIndex]];
+    self.fetchContentViewAtIndex = ^UIView *(NSInteger pageIndex){
+        return [[TopView alloc] initWithFrame:weakSelf.frame storyModel:topStories[pageIndex]];
+    };
+    
+    self.totalPagesCount = ^NSInteger(void){
+        return topStories.count;
     };
     
     self.TapActionBlock = ^(NSInteger pageIndex){
@@ -337,11 +351,11 @@ static CGFloat const animationDuration = 5.0;
     
     UIScrollView *scrollView = object;
     CGFloat offSetY = scrollView.contentOffset.y;
-    if (offSetY <= 0 && offSetY >= -90) {
+    if (offSetY<=0&&offSetY>=-90) {
         self.frame = CGRectMake(0, -45 - 0.5 * offSetY, kScreenWidth, 265 - 0.5 * offSetY);
-    }else if (offSetY < -90) {
+    }else if(offSetY<-90){
         self.myScrollView.contentOffset = CGPointMake(0, -90);
-    }else if (offSetY <= 500) {
+    }else if(offSetY <= 500) {
         self.y = -45 - offSetY;
     }
     

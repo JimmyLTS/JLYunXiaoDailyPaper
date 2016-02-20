@@ -32,7 +32,7 @@ static CGFloat const animationDuration = 3.0;
     [self.view addSubview:self.imageTitle];
     
     //获得启动动画图片
-    
+    [self updataLaunchImage];
 }
 
 #pragma mark - private method

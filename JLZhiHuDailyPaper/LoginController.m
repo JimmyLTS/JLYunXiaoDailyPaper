@@ -23,7 +23,7 @@
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
 }
 
-- (IBAction)back:(id)sender {
+- (IBAction)back {
     
     [self dismissViewControllerAnimated:YES completion:nil];
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;

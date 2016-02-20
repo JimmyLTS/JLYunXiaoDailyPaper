@@ -46,6 +46,10 @@
     return vc;
 }
 
+- (void)previewingContext:(id <UIViewControllerPreviewing>)previewingContext commitViewController:(UIViewController *)viewControllerToCommit {
+    
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     
 }

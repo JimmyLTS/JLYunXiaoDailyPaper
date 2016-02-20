@@ -25,10 +25,10 @@
 
 @implementation NewsNavigation
 
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
+- (instancetype)initWithFrame:(CGRect)frame{
+    
+    if (self == [super initWithFrame:frame]) {
+        
         [self addSubview:self.backBtn];
         [self addSubview:self.nextBtn];
         [self addSubview:self.voteBtn];
@@ -36,12 +36,13 @@
         [self addSubview:self.commentBtn];
         [self.voteBtn addSubview:self.voteLabel];
         [self.commentBtn addSubview:self.commentLabel];
+        
     }
     return self;
+    
 }
 
-- (void)layoutSubviews {
-    
+- (void)layoutSubviews{
     [super layoutSubviews];
     self.backBtn.frame = self.bounds;
     self.backBtn.width = self.width * 0.2;
@@ -61,29 +62,37 @@
     self.voteLabel.x = self.voteBtn.width * 0.5;
     self.voteLabel.y = self.voteBtn.height * 0.2;
     self.voteLabel.width = self.voteBtn.width * 0.3;
-    self.voteLabel.height= self.voteBtn.height * 0.2;
+    self.voteLabel.height = self.voteBtn.height * 0.2;
     
+    self.commentLabel.x = self.commentBtn.width * 0.5;
+    self.commentLabel.y = self.commentBtn.height * 0.2;
+    self.commentLabel.width = self.commentBtn.width * 0.3;
+    self.commentLabel.height = self.commentBtn.height * 0.2;
 }
 
+
 - (IBAction)touchUpNaviBtn:(UIButton *)sender {
+    
     if ([self.delegate respondsToSelector:@selector(didTouchUpNaviBar:btnTag:)]) {
-        [self.delegate didTouchUpNaviBar:self btnTag:sender.tag];
+        [self.delegate didTouchUpNaviBar:self
+                                  btnTag:sender.tag];
     }
+    
 }
 
 #pragma mark - getter and setter
-
-- (void)setId:(NSNumber *)number {
-    
+- (void)setId:(NSNumber *)number{
     _id = number;
     
-    [DetailViewTool getStoryExtraWithStoryId:number Callback:^(StoryExtra  *obj) {
-        self.commentLabel.text = [NSString stringWithFormat:@"%@", obj.comments];
-        self.voteLabel.text = [NSString stringWithFormat:@"%@", obj.popularity];
+    [DetailViewTool getStoryExtraWithStoryId:number Callback:^(StoryExtra* obj) {
+        self.commentLabel.text = [NSString stringWithFormat:@"%@",obj.comments];
+        self.voteLabel.text = [NSString stringWithFormat:@"%@",obj.popularity];
+        
     }];
+    
+    
 }
-
-- (UIButton *)backBtn {
+- (UIButton *)backBtn{
     if (_backBtn == nil) {
         _backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_backBtn setImage:[UIImage imageNamed:@"News_Navigation_Arrow"] forState:UIControlStateNormal];
@@ -91,10 +100,9 @@
         _backBtn.tag = 1;
     }
     return _backBtn;
-    
 }
 
-- (UIButton *)nextBtn {
+- (UIButton *)nextBtn{
     if (_nextBtn == nil) {
         _nextBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_nextBtn setImage:[UIImage imageNamed:@"News_Navigation_Next"] forState:UIControlStateNormal];
@@ -104,7 +112,7 @@
     return _nextBtn;
 }
 
-- (UIButton *)voteBtn {
+- (UIButton *)voteBtn{
     if (_voteBtn == nil) {
         _voteBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_voteBtn setImage:[UIImage imageNamed:@"News_Navigation_Vote"] forState:UIControlStateNormal];
@@ -115,7 +123,7 @@
     return _voteBtn;
 }
 
-- (UIButton *)shareBtn {
+- (UIButton *)shareBtn{
     if (_shareBtn == nil) {
         _shareBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_shareBtn setImage:[UIImage imageNamed:@"News_Navigation_Share"] forState:UIControlStateNormal];
@@ -125,7 +133,7 @@
     return _shareBtn;
 }
 
-- (UIButton *)commentBtn {
+- (UIButton *)commentBtn{
     if (_commentBtn == nil) {
         _commentBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_commentBtn setImage:[UIImage imageNamed:@"News_Navigation_Comment"] forState:UIControlStateNormal];
@@ -135,7 +143,7 @@
     return _commentBtn;
 }
 
-- (UILabel *)voteLabel {
+- (UILabel *)voteLabel{
     if (_voteLabel == nil) {
         _voteLabel = [[UILabel alloc] init];
         _voteLabel.textColor = [UIColor grayColor];
@@ -146,15 +154,16 @@
     return _voteLabel;
 }
 
-- (UILabel *)commentLabel {
+- (UILabel *)commentLabel{
     if (_commentLabel == nil) {
         _commentLabel = [[UILabel alloc] init];
-        _commentLabel.textColor = [UIColor grayColor];
+        _commentLabel.textColor = [UIColor whiteColor];
         _commentLabel.font = [UIFont systemFontOfSize:8.f];
-        _commentLabel.text = @"111";
+        _commentLabel.text =  @"111";
         _commentLabel.textAlignment = NSTextAlignmentCenter;
     }
     return _commentLabel;
 }
+
 
 @end

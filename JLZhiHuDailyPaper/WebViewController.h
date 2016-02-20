@@ -10,6 +10,6 @@
 
 @interface WebViewController : UIViewController
 
-- (instancetype)initWithString:(NSString *)str;
+- (instancetype)initWithNSString:(NSString *)str;
 
 @end

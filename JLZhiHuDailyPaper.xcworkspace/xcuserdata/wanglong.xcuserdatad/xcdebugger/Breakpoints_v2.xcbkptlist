@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JLZhiHuDailyPaper/LaunchViewController.m"
+            timestampString = "477631739.892587"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "-updataLaunchImage"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JLZhiHuDailyPaper/StoryModelTool.m"
+            timestampString = "477631742.750012"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-loadNewStoriesWithCallBack:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[StoryModelTool loadNewStoriesWithCallBack:]"
+                  moduleName = "JLZhiHuDailyPaper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryModelTool.m"
+                  timestampString = "477631997.531589"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__45-[StoryModelTool loadNewStoriesWithCallBack:]_block_invoke"
+                  moduleName = "JLZhiHuDailyPaper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryModelTool.m"
+                  timestampString = "477631997.53188"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JLZhiHuDailyPaper/StoryModelTool.m"
+            timestampString = "477631745.483828"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "-updateStoriesWithCallBack:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[StoryModelTool updateStoriesWithCallBack:]"
+                  moduleName = "JLZhiHuDailyPaper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryModelTool.m"
+                  timestampString = "477631997.533288"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__44-[StoryModelTool updateStoriesWithCallBack:]_block_invoke"
+                  moduleName = "JLZhiHuDailyPaper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryModelTool.m"
+                  timestampString = "477631997.533561"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JLZhiHuDailyPaper/StoryModelTool.m"
+            timestampString = "477631750.671535"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "-loadFormerStoriesWithUpdateBack:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[StoryModelTool loadFormerStoriesWithUpdateBack:]"
+                  moduleName = "JLZhiHuDailyPaper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryModelTool.m"
+                  timestampString = "477631997.53491"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__50-[StoryModelTool loadFormerStoriesWithUpdateBack:]_block_invoke"
+                  moduleName = "JLZhiHuDailyPaper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryModelTool.m"
+                  timestampString = "477631997.535185"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JLZhiHuDailyPaper/ThemeNewsTool.m"
+            timestampString = "477631753.302493"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "-getThemeNewsWithId:SuccessfulBlock:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ThemeNewsTool getThemeNewsWithId:SuccessfulBlock:]"
+                  moduleName = "JLZhiHuDailyPaper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeNewsTool.m"
+                  timestampString = "477631997.536571"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__52-[ThemeNewsTool getThemeNewsWithId:SuccessfulBlock:]_block_invoke"
+                  moduleName = "JLZhiHuDailyPaper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeNewsTool.m"
+                  timestampString = "477631997.536829"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JLZhiHuDailyPaper/ThemeTool.m"
+            timestampString = "477631755.878709"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "+getThemeWithSuccessfulBlock:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[ThemeTool getThemeWithSuccessfulBlock:]"
+                  moduleName = "JLZhiHuDailyPaper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeTool.m"
+                  timestampString = "477631997.538206"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__41+[ThemeTool getThemeWithSuccessfulBlock:]_block_invoke"
+                  moduleName = "JLZhiHuDailyPaper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeTool.m"
+                  timestampString = "477631997.538468"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

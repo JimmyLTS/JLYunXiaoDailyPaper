@@ -5,4 +5,15 @@ dependencies: \
   /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/Common.h \
   /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/UIView+Extension.h \
   /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HttpTool.h \
-  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeViewController.h
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeViewController.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/AppDelegate.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/MainController.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeNewsTool.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeNews.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryModel.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/TableViewDataSource.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HomeCell.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/TopImageView.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/Theme.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/CircleRefreshView.h \
+  /Users/wanglong/Desktop/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ContainerController.h
