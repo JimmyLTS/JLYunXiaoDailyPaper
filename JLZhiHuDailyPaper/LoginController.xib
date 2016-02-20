@@ -59,6 +59,9 @@
                     <state key="normal" title="腾讯QQ" backgroundImage="Login_Button_Tencent">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
+                    <connections>
+                        <action selector="QQlogin" destination="-1" eventType="touchUpInside" id="8bC-Mo-kgm"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mY7-YG-S7J">
                     <rect key="frame" x="30" y="373" width="260" height="54"/>
@@ -70,6 +73,9 @@
                     <state key="normal" title="新浪微博" backgroundImage="Login_Button_Sina">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
+                    <connections>
+                        <action selector="sinaLogin" destination="-1" eventType="touchUpInside" id="Z39-Yi-hhI"/>
+                    </connections>
                 </button>
             </subviews>
             <animations/>
