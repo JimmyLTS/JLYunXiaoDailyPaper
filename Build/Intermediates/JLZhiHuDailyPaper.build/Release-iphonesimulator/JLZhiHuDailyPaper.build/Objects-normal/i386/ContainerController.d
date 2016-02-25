@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ContainerController.m \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/PrefixHeader.pch \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/CommonUtils.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/Common.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/UIView+Extension.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HttpTool.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ContainerController.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/NewsNavigation.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/DetailViewController.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/DetailViewTool.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeNewsTool.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/ThemeNews.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryModel.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HUD/MBProgressHUD+MJ.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/HUD/MBProgressHUD.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/AppDelegate.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/MainController.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/DetailStory.h \
+  /Users/wanglong/Desktop/LTS/就业/JLZhiHuDailyPaper/JLZhiHuDailyPaper/StoryExtra.h

@@ -77,7 +77,7 @@ static CGFloat const animationDuration = 3.0;
     
     if (_launchImage == nil) {
         _launchImage = [[UIImageView alloc] initWithFrame:kScreenBounds];
-        _launchImage.image = [UIImage imageNamed:@"Default"];
+        _launchImage.image = [UIImage imageNamed:@"Default1"];
     }
     
     return _launchImage;
@@ -87,7 +87,7 @@ static CGFloat const animationDuration = 3.0;
     
     if (_logoImage == nil) {
         _logoImage = [[UIImageView alloc] initWithFrame:CGRectMake(kWidth(95), kHeight(458), kWidth(128), kHeight(49))];
-        _logoImage.image = [UIImage imageNamed:@"Login_Logo"];
+        _logoImage.image = [UIImage imageNamed:@"Login_Logo1"];
     }
     
     return _logoImage;

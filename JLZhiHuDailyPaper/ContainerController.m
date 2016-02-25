@@ -81,7 +81,7 @@ DetailViewControllerDelegate>
     
     UIPreviewAction *p1 =[UIPreviewAction actionWithTitle:@"分享" style:UIPreviewActionStyleDefault handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
         
-                [UMSocialData defaultData].extConfig.qqData.title = @"知乎日报";
+                [UMSocialData defaultData].extConfig.qqData.title = @"云晓日报";
                 [UMSocialData defaultData].extConfig.qqData.url = self.story.share_url;
         
                 [[UMSocialDataService defaultDataService]
@@ -144,11 +144,11 @@ DetailViewControllerDelegate>
 #pragma mark - private method
 - (void)share{
     [UMSocialConfig hiddenNotInstallPlatforms:@[UMShareToQQ, UMShareToQzone, UMShareToWechatSession, UMShareToWechatTimeline]];
-    [UMSocialData defaultData].extConfig.qqData.title = @"知乎日报";
+    [UMSocialData defaultData].extConfig.qqData.title = @"云晓日报";
     [UMSocialData defaultData].extConfig.qqData.url = self.story.share_url;
 
     [UMSocialData defaultData].extConfig.wechatSessionData.url = self.story.share_url;
-    [UMSocialData defaultData].extConfig.wechatSessionData.title = @"知乎日报";
+    [UMSocialData defaultData].extConfig.wechatSessionData.title = @"云晓日报";
     [[UMSocialData defaultData].urlResource setResourceType:UMSocialUrlResourceTypeImage url:self.story.share_url];
 
     [UMSocialSnsService presentSnsIconSheetView:self
